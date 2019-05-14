@@ -322,7 +322,7 @@ def decodestring(s):
 
 
 
-# Useable as a script...
+# Usable as a script...
 def test():
     """Small test program"""
     import sys, getopt

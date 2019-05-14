@@ -10,7 +10,7 @@ import os
 import shutil
 
 try:
-    # Only availabe on py2
+    # Only available on py2
     from kitchen.pycompat27 import subprocess
 except:
     import subprocess
@@ -47,7 +47,7 @@ def main():
         shutil.rmtree('locale')
     except OSError as e:
         # If the error is that locale does not exist, we're okay.  We're
-        # deleting it here, afterall
+        # deleting it here, after all
         if e.errno != 2:
             raise
 
